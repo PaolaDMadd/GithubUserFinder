@@ -1,0 +1,101 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  border-top: 5px solid #4c4066;
+  margin: 0px auto;
+  font-size: 14px;
+  color: #666666;
+  font-size: 16px;
+  /* background-color: rgb(205, 197, 241); */
+}
+
+p{
+  margin: 0;
+  padding:0;
+}
+header {
+  text-align: center;
+  background-color: #fdfdfd;
+  border-bottom: 1px solid #e5e2e0;
+}
+
+#logo {
+  position: relative;
+  top: -2px;
+}
+
+#container {
+  width: 1040px;
+  margin: 0px auto;
+  min-height: 750px;
+  text-align: center;
+}
+
+input[type='text'] {
+  height: 2.2em;
+  font-size: 2em;
+  width: 50%;
+  padding: 5px;
+}
+
+.information, .avatar, .repos {
+  vertical-align: top; 
+  margin-bottom: 5px;
+}
+
+.information {
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.search {
+  text-align: center;
+  margin: 50px auto;
+}
+
+h2 {
+  padding: 5px;
+}
+
+.profileStyle{
+  height: 130px;
+  width: 150px;
+  padding: 90px 30px 0;
+  background-color: purple;
+  text-decoration: none;
+  color: white;
+  font-weight: bold; 
+  display: block; 
+  /* border-left: 0.5em solid white; */
+
+}
+
+.avatarFound{
+  height: 220px;
+  width: 221px;
+  display: block;
+} 
+
+.repository{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  padding: 5px;
+  display: block;
+  background-color: purple;
+  color: white;
+  font-weight: bold;  
+  text-align: center;
+  width: 430px;
+  margin: auto;
+}
+
+.profileStyle :hover {
+  background-color: #b300b3;
+}
+
+
+
+#wrapContainer{
+  display: flex;
+  justify-content: space-evenly;
+}
