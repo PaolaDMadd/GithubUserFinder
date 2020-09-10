@@ -17,4 +17,4 @@ To build a webpage that can retrieve information about a specified GitHub user.
 ## My additional functions:
 - Retrieve number of active repositories in the user profile.
 - If userName is not found a message "no such user" will display.
-- Placeholder is reset each time the query is sent. 
+- Search box/test input resets to placeholder, once the query is sent. 
